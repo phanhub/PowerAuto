@@ -1,5 +1,0 @@
-SharePoint | Get items
-Site Address	 - https://XXXX.sharepoint.com/sites/XXX
-List Name	Reports
-Filter Query	(Created ge '@{startOfDay(addDays(convertTimeZone(utcNow(), 'UTC', 'Eastern Standard Time'), -1))}') and (ReportType eq 'TEST Notification')
-Limit Column by View	
