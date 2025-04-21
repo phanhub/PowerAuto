@@ -1,7 +1,10 @@
 ## Retrieving reports from the past 24 hours
 Include statuses such as pending, rejected, or published, and exporting the data into a table with the following columns: Date Created | Title (with hyperlink) | Status.
+![image](https://github.com/user-attachments/assets/0587c7fa-e7fd-469b-86f4-fbaaa16c3507)
 
 ### SharePoint | Get-Items
+![image](https://github.com/user-attachments/assets/724f6029-ae5c-4894-85b2-c2a83288e677)
+
 |  |  | Example |
 |-------:|-------------------|---------------|
 |Site Address | Select the path | https://XXXX.sharepoint.com/sites/XXX |
@@ -18,7 +21,7 @@ Include statuses such as pending, rejected, or published, and exporting the data
 ### Compose
 | Field Name | Description | Example Code Snippet | 
 |---------------------|-----------------------------------------------|---------------------------------------------------| 
-| | Table format and headers | ```<table style='border-collapse: collapse; width: 100%;'> <tr style='background-color: #002060;'> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF; width: 10%;'>Date</th> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF; width: 80%'>TITLE w/Link</th> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF;'>Status (Pending/Completed)</th> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF;'>Notes</th> </tr> @{variables('Convert')} </table>``` |
+| | Table format and headers | ```<table style='border-collapse: collapse; width: 100%;'> <tr style='background-color: #002060;'> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF; width: 10%;'>Date</th> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF; width: 80%'>TITLE w/Link</th> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF;'>Status (Pending/Completed)</th> <th style='border: 1px solid black; padding: 8px; color: #FFFFFF;'>Notes</th> </tr> @{variables('Convert')} </table>``` ![image](https://github.com/user-attachments/assets/8d118677-cd01-494f-ac6b-8412ff23c2b6)
 
 ### Post Message in Teams Chat
 @{outputs('Compose')}
