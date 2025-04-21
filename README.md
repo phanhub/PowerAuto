@@ -1,6 +1,3 @@
 # Page 1
 ### Sub 
-Page 2 This will break down to various tasks that can be initiated by keywords within Microsoft Teams and will provide an output accordingly.
-
-# Page 2
-## This will break down to various tasks that can be initiated by keywords within Microsoft Teams and will provide an output accordingly.    
+<script src="https://gist.github.com/ChrisTollefson/a3af6d902a74a0afd1c2d79aadc9bb3f.js"></script>
