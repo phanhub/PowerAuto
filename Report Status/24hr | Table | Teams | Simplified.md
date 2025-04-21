@@ -1,5 +1,7 @@
 ## Retrieving reports from the past 24 hours
-Include statuses such as pending, rejected, or published, and exporting the data into a table with the following columns: Date Created | Title (with hyperlink) | Status.
+<li>Display available status</li> 
+<li>Formated | Date Created | Title (with hyperlink) | Status.</li> 
+
 ![image](https://github.com/user-attachments/assets/0587c7fa-e7fd-469b-86f4-fbaaa16c3507)
 
 <details>
