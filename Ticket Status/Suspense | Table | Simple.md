@@ -12,7 +12,7 @@
 |-------:|-------------------|---------------|
 |Site Address | Select the path | https://XXXX.sharepoint.com/sites/XXX |
 |List Name| Select the sub folder | Master List |
-|Filter Query| Defining the desired | (ReportingStatus eq 'ENTER_CATEGORY') and (ContentType ne 'ABC') and (ContentType ne 'Routine or Administrative') and (ContentType ne 'Incident or Event') | 
+|Filter Query| Defining the desired | (ReportingStatus eq 'ENTER_CATEGORY') and (ContentType ne 'ABC') and (ContentType ne 'DEF or GHI') and (ContentType ne 'Incident or Event') | 
 |Limit Column by View | Select Sub category | Open RFI | 
 |Order By | | Suspense_x0000_Date asc
   
