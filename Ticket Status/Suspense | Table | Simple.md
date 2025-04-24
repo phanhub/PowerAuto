@@ -36,7 +36,16 @@ concat(
   items('Apply_to_each_2')?['IncidentNumber'],
   '</td></tr>')
 ```
-
-
 </details>
 
+<details>
+<summary>Compose</summary>
+
+```javascript
+<table style="border-collapse: collapse; width: 100%;">
+    <tr style="background-color: #002060;">
+      <th style="border: 1px solid black; padding: 8px; color: #FFFFFF;"> Title</th>
+    @{variables('Convert')}
+  </table>
+```
+</details>
