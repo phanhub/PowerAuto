@@ -1,6 +1,6 @@
 ### Table of TIckets 
 <li>Specific Category</li> 
-<li>Suspense Datest</li> 
+<li>Suspense Dates</li> 
 <li>Ordered by Older to Newer/Nearest due date</li>  
 
 ## Scenario | Tickets for Requesting for Information
